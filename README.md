@@ -3,11 +3,27 @@
 
 Table of contents
 
+- [Theory](#theory)
+    - [Help](#help)
+    - [Parameters](#parameters)
+    - [Flags](#flags)
+    - [Autocomplete](#autocomplete)
+    - [Clear](#clear)
+    - [Signals](#signals)
+- [Commands](#commands)
+    - [mkdir](#mkdir)
+    - [rm](#rm)
+    - [cp](#rm)
+    - [mv](#rm)
+    - [ps](#rm)
+    - [sleep](#rm)
+    - [shutdown](#rm)
+- [Environment variables](#environment-variables)
 
 ## Theory
 
 When you open a command line you are essentially looking at a REPL or Read Evaluate Print Loop and is used to navigate around your computer, create folders and files, edit or delete files, make network calls, inspect the computer parameters and much more. When you are using REPL you are feeding one command at a time to the system and getting the result back. 
-## Basics
+
 ### Help
 Remembering all the commands and it’s parameters can be challenging and therefore the help commands comes in handy. To use the help functionality you simply append –help to the command. While this works fine in Linux system in Windows you can append `/?` To get the same behaviour E.g.
 ```shell
@@ -130,8 +146,8 @@ shutdown /s /f /t 300 /c "Turning off"
 shutdown /a
 ```
 
-# CTRL + C to exit
-```
+
+
 
 ## Environment variables
 
@@ -144,5 +160,3 @@ $TEST=1
 
 echo "My number is $TEST"
 ```
-
-## Example of bath scripts
